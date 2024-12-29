@@ -1,0 +1,104 @@
+main {
+  padding: 20px 10px 20px 10px;
+}
+
+.item-info {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  border-bottom: 1px solid #ededef;
+  padding: 5px 0 5px 0;
+}
+
+.item-info__img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-info__img img {
+  width: 30px;
+}
+
+.item-info__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.item-info__title {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.item-info__price {
+  margin-top: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.item-chat__you {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding: 5px 5px 5px 5px;
+}
+
+.item-chat__you-pro {
+  width: 20px;
+  border: 1px solid gray;
+  border-radius: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-chat__you-pro img {
+  width: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-chat__you-talk {
+  padding-left: 10px;
+}
+
+.item-chat__me {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  padding: 5px 5px 5px 5px;
+}
+
+.item-chat__me-talk {
+  padding-left: 10px;
+}
+
+.item-chat__sta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0 5px 0;
+  border: 1px solid gray;
+  margin: 20px 10px 20px 10px;
+}
+
+.item-chat__alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0 5px 0;
+}

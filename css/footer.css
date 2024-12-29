@@ -1,0 +1,47 @@
+/* 푸터 */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-top: 1px solid #eaeaea;
+  background-color: white;
+}
+
+.footer-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 20px;
+}
+
+.footer-icons img {
+  width: 20px;
+}
+
+.footer-icons__mid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-icons__mid-msg {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.footer-icons__mid-img {
+  width: 20px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.footer-send {
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
